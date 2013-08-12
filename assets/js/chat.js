@@ -246,7 +246,7 @@ function InitChat() {
     * * * * * * * * * * * * * * * * */
     
     $('#message, #pmmessage').keyup(function (e) {
-        $(this).parent().find('.chatcountdown').text( (1000 - $(this).val().length) + ' characters remaining.');
+        $(this).parent().find('.chatcountdown').text( (500 - $(this).val().length) + ' characters remaining.');
     });
     
     $('#message, #pmmessage').keypress(function (e) {
