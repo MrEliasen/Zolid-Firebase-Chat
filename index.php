@@ -49,7 +49,7 @@
                                 <div class="form-inline">
                                     <input autocomplete="off" id="message" name="message" type="text" class="col-lg-12 form-control" placeholder="Type your message, and hit enter!">
                                     <div class="clearfix"></div>
-                                    <span class="chatcountdown">1000 characters remaining</span>
+                                    <span class="chatcountdown">500 characters remaining</span>
                                 </div>
                             </div>
                             <div class="tab-pane" id="private">
@@ -60,7 +60,7 @@
                                     </div>
                                     <div class="col-lg-9">
                                         <input autocomplete="off" id="pmmessage" name="message" type="text" class="form-control" placeholder="Type your message, and hit enter!">
-                                        <span class="chatcountdown">1000 characters remaining</span>
+                                        <span class="chatcountdown">500 characters remaining</span>
                                     </div>
                                 </div>
                             </div>
