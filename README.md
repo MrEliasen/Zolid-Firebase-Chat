@@ -11,9 +11,10 @@ No documentation yet.
 * PHP 5.3+
 
 ##Installation
-1. Upload to your webhost
-2. Modify the chat.js file and the chat.class.php file and fill in your own firebase details.
-3. For the love of everything that is holy, do tie it in with your own system. The current way it handles users/sessions etc. is ONLY for demo purposes.
+1. Upload to your webhost.
+2. Import the rules.js to your Firebase.
+3. Modify the chat.js file and the chat.class.php file and fill in your own firebase details.
+4. For the love of everything that is holy, do tie it in with your own system. The current way it handles users/sessions etc. is ONLY for demo purposes.
 
 ##Thanks
 * [Firebase](https://www.firebase.com)
