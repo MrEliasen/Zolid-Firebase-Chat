@@ -1,0 +1,48 @@
+/*
+ * Chat
+ * * * * * * * * * * * * * * * * * * * * */
+#chat_conversation,
+#pm_conversation{
+    position: relative;
+    height: 400px;
+    overflow-y: auto;
+    padding: 2px;
+    
+    box-shadow: inset 1px 1px 3px 0px rgba(182, 182, 182, 1);
+    -moz-box-shadow: inset 1px 1px 3px 0px rgba(182, 182, 182, 1);
+    -webkit-box-shadow: inset 1px 1px 3px 0px rgba(182, 182, 182, 1);
+    
+    border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+}
+
+#chat_conversation .well,
+#pm_conversation .well{
+    margin-bottom: 3px;
+    padding: 3px;
+}
+
+#chat_conversation .well a:hover,
+#pm_conversation .well a:hover{
+    text-decoration: none !important;
+}
+
+#chatloader{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 44%;
+}
+.chatcountdown{
+    color: rgb(177, 177, 177);
+}
+#onlineusers{
+    padding-top: 12px;
+}
+
+#chat_conversation .deletemsg,
+#chat_conversation .editmsg,
+.sendreply{
+    cursor: pointer;
+}

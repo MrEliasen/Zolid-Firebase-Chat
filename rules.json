@@ -1,0 +1,25 @@
+{
+  "rules": {
+    ".read": "auth.user == 'admin'",
+    ".write": "auth.user == 'admin'",
+    
+    "chat": {
+      ".read": true
+    },
+    
+    "private": {
+      "$username": {
+        ".read": "!data.exists() || auth.user == $username",
+        ".write": "!data.exists() || auth.user == $username"
+      },
+    },
+    
+    "users": {
+      ".read": true,
+      "$userID":{
+        ".write": "auth != null",
+        ".validate": "newData.hasChildren(['user', 'status']) && auth.user == newData.child('user').val() && newData.child('status').isBoolean()"
+      }
+    }
+  }
+}
