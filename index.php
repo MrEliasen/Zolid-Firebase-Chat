@@ -41,7 +41,7 @@
                             <div class="tab-pane active" id="general">
                                 <div id="chat_conversation">
                                     <div id="chatloader">
-                                        <img src="assets/images/loading.gif" alt="Kitty Amazing"> Loading Chat..
+                                        <img src="assets/images/loading.gif" alt="Zolid Firebase Chat"> Loading Chat..
                                         <div class="clearfix"></div>
                                         This might take a few seconds
                                     </div>
