@@ -23,6 +23,3 @@ No documentation yet.
 
 ##License
 * This project is released under the MIT License - http://opensource.org/licenses/mit-license.php
-
-##Contact
-* Twitter: http://twitter.com/markeliasen
